@@ -1,0 +1,15 @@
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/bin/Debug/net6.0/Assignment01
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/bin/Debug/net6.0/Assignment01.deps.json
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/bin/Debug/net6.0/Assignment01.runtimeconfig.json
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/bin/Debug/net6.0/Assignment01.dll
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/bin/Debug/net6.0/Assignment01.pdb
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.csproj.AssemblyReference.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.AssemblyInfoInputs.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.AssemblyInfo.cs
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.csproj.CoreCompileInputs.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.dll
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/refint/Assignment01.dll
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.pdb
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/Assignment01.genruntimeconfig.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment01/Assignment01/obj/Debug/net6.0/ref/Assignment01.dll

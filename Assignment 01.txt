@@ -1,0 +1,67 @@
+Assignment 01: Introduction to C# and Data Types
+
+1. What type would you choose for the following “numbers”?
+	A person’s telephone number	->	string
+	A person’s height	->	float
+	A person’s age		->	sbyte
+	A person’s gender (Male, Female, Prefer Not To Answer)	->	enum
+	A person’s salary	->	int
+	A book’s ISBN	->	long
+	A book’s price	->	float
+	A book’s shipping weight	->	float
+	A country’s population	-> int
+	The number of stars in the universe	-> String
+	The number of employees in each of the small or medium businesses in the
+	United Kingdom (up to about 50,000 employees per business)	-> int
+
+
+2. What are the difference between value type and reference type variables? What is boxing and unboxing?
+	Value types are directly contain their data. Each has its own copy of data. Operation on one can not effect another. Reference types, on the other hand, store references to their data. Two reference variable can reference the same object. Operation on one can affect another. 
+
+3. What is meant by the terms managed resource and unmanaged resource in .NET
+	Unmanaged resource is something not directly under the control of the garbage collector. Managed resources are those that are pure .NET code and managed by the runtime and are under its direct control. 
+
+4. Whats the purpose of Garbage Collector in .NET?
+	The garbage collector manages the allocation and release of memory for an application.
+
+Practice number sizes and ranges (See the project files)
+
+
+Controlling Flow and Converting Types
+
+1. What happens when you divide an int variable by 0?
+	It will throw System.DivideByZeroException.
+
+2. What happens when you divide a double variable by 0?
+	It will get a result of Infinity (oo).
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond its range?
+	A compiler Error CS0266 will appear. Cannot implicitly convert type 'type1' to 'type2'. An explicit conversion exists.
+
+4. What is the difference between x = y++; and x = ++y;?
+	x = y++ will assign x = y first, then increment y by 1. 
+	x = ++y will increment y by 1 first, then assign x = y.
+
+5. What is the difference between break, continue, and return when used inside a loop statement?
+	BREAK will simply break out from the loop.
+	CONTINUE will skip this one iteration of the loop.
+	RETURN will break out from the loop and return the function. 
+
+6. What are the three parts of a for statement and which of them are required?
+	It has three parts: init-expression, cond-expression and loop expression.
+	The init-expression and loop expression 
+
+7. What is the difference between the = and == operators?
+	" = " is assignment operator, it will make a copy of the value on the right, assign the copy of value to the left.
+	" == " is equality operator. It compares their operands for strict equality.
+
+8. Does the following statement compile? for ( ; true; ) ;
+	Yes. It will compile and run. But since there is no update and the condition is always true, the program will run into a infinity loop.
+
+9. What does the underscore _ represent in a switch expression?
+	In a switch expression, the underscore symbol is a placeholder that matches any value that is not explicitly handled by a case label. This is known as a discard pattern. 
+
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+	The "IEnumerable" interface. 
+
+Practice loops and operators (See separate project files)
