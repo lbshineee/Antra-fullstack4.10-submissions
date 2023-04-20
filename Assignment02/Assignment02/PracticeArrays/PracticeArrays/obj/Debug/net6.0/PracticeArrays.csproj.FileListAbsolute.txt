@@ -1,0 +1,15 @@
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/bin/Debug/net6.0/PracticeArrays
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/bin/Debug/net6.0/PracticeArrays.deps.json
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/bin/Debug/net6.0/PracticeArrays.runtimeconfig.json
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/bin/Debug/net6.0/PracticeArrays.dll
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/bin/Debug/net6.0/PracticeArrays.pdb
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.csproj.AssemblyReference.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.AssemblyInfoInputs.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.AssemblyInfo.cs
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.csproj.CoreCompileInputs.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.dll
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/refint/PracticeArrays.dll
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.pdb
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/PracticeArrays.genruntimeconfig.cache
+/Users/lbshine/Desktop/Career/Antra/full stack .net/Training/C#/projects/Assignment02/PracticeArrays/PracticeArrays/obj/Debug/net6.0/ref/PracticeArrays.dll
