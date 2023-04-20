@@ -1,0 +1,28 @@
+02 Arrays and Strings
+
+Test your Knowledge
+
+1. When to use String vs. StringBuilder in C# ?
+	Using StringBuilder when heavy string manipulations are involved. Using String otherwise. 
+
+2. What is the base class for all arrays in C#?
+	System.Array class.
+
+3. How do you sort an array in C#?
+	call Sort(Array) method.
+
+4. What property of an array object can be used to get the total number of elements in an array?
+	Length method.
+	
+5. Can you store multiple data types in System.Array?
+	No. But you can store elements of any type if you specify Object as its type.
+
+6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+	CopyTo() copies all the elements of the current array to the specified array starting at the specified destination array index.
+	Clone() simply creates a shallow copy of the Array.
+
+Practice Arrays (See separate files)
+
+Practice Strings (See separate files)
+
+
