@@ -1,0 +1,125 @@
+03 Object-Oriented Programming
+
+
+Test your knowledge
+
+
+1. What are the six combinations of access modifier keywords and what do they do? 
+	
+	Public: make it accessible anywhere.
+
+
+	Protected: make it accessible within the class and it’s subclasses.
+
+
+	Private: make it accessible within the same class.
+
+
+	Internal: make it accessible in the same assembly.
+
+
+	Sealed: If used on a class, make it cannot be inherited. If used on a method, make it cannot be overridden.
+
+
+	Static: If used on a class, make the class cannot be inherited, instantiated and only contains static members. 
+	If used on methods. Make the methods belong to the class rather than specific objects. The methods are called by class name. 
+	If used on variables. Make the variables belong to the class rather than specific objects.
+
+
+2. What is the difference between the static, const, and readonly keywords when applied to a type member?
+	
+	A static member belongs to the type itself rather than to any specific instance of the type. A const member is a compile-time constant value that cannot be changed at runtime. It is implicitly static. A readonly member can be set only in the constructor of the type. It is not implicitly static.
+	
+3. What does a constructor do?
+
+
+	A constructor creates an instance and initializes the instance of the class.
+
+
+4. Why is the partial keyword useful?
+	
+The partial keyword alliws a class, struct, or interface to be defined in multiple files. This can reduce the size of a large program.	
+
+
+5. What is a tuple?
+
+
+	A tuple is a data structure that can hold a fixed number of values of differernt types.
+
+
+6. What does the C# record keyword do?
+	
+The record keyword is used to define a new type that is primarily used for holding data. Records are similar to classes, but they are immtable by default.	
+
+
+7. What does overloading and overriding mean?
+
+
+Overloading and overriding are the concept of polymorphism. Overloading is compile time polymorphism, it happens when methods in same class share the same method name, but different input parameters. Overriding is runtime polymorphism, it happens when methods in base class and its subclasses share the same methods name and signature. 
+
+
+8. What is the difference between a field and a property?
+
+
+A field is a variable that is declared direcrtly within a class or struct.
+A property is a method that provides access to a private field.
+
+
+9. How do you make a method parameter optional?
+
+
+By specifying a default value for the parameter in the method declaration.	
+
+
+10. What is an interface and how is it different from abstract class?
+
+
+An interface is like an abstract class but its 100% abstract. Meaning everything in the class should be implemented once a class implements it.
+
+
+11. What accessibility level are members of an interface?
+
+
+Public and abstract.	
+
+
+12. True/False. Polymorphism allows derived classes to provide different implementations of the same method. T
+
+
+13. True/False. The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method. T
+
+
+14. True/False. The new keyword is used to indicate that a method in a derived class is providing its own implementation of a method. F
+
+
+15. True/False. Abstract methods can be used in a normal (non-abstract) class. F
+
+
+16. True/False. Normal (non-abstract) methods can be used in an abstract class. T
+
+
+17. True/False. Derived classes can override methods that were virtual in the base class.  T
+
+
+18. True/False. Derived classes can override methods that were abstract in the base class. T
+
+
+19. True/False. In a derived class, you can override a method that was neither virtual non abstract in the base class. F
+
+
+20. True/False. A class that implements an interface does not have to provide an implementation for all of the members of the interface. F
+
+
+21. True/False. A class that implements an interface is allowed to have other members that aren’t defined in the interface. T
+
+
+22. True/False. A class can have more than one base class. F
+
+
+23. True/False. A class can implement more than one interface. T
+
+
+
+Working with methods (see separate project files)
+
+Designing and Building Classes using object-oriented principles (see separate project files)
