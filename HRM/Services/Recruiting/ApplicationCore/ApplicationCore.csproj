@@ -15,7 +15,6 @@
     <None Remove="Contracts\Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Contracts\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Contracts\Repositories\" />
