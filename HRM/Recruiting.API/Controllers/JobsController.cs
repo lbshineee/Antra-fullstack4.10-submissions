@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,7 +44,7 @@ namespace Recruiting.API.Controllers
 
         // http:localhost/api/jobs/4
         [HttpGet]
-        [Route("{id:int}")]
+        [Route("{id:int}", Name = "GetJobDetails")]
         public async Task<IActionResult> GetJobDetails(int id)
         {
             var job = await _jobService.GetJobById((id));
@@ -54,5 +55,22 @@ namespace Recruiting.API.Controllers
 
             return Ok(job);
         }
+
+        [HttpPost]
+        [Route("")]
+        public async Task<IActionResult> Create(JobRequestModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                // 400 status code
+                return BadRequest();
+            }
+
+            /*var job = await _jobService.AddJob(model);
+            return CreatedAtAction
+                ("GetJobDetails", new { controller = "Jobs", id = job }, "Job Created")*/
+            return null;
+        }
+    
     }
 }

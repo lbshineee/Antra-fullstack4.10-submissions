@@ -25,9 +25,10 @@ namespace ApplicationCore.Entities
         public DateTime? CreatedOn { get; set; }
         
         
-        // Adding a forien key
-        public int JobStatusLookUp_Id { get; set; }
-            // Navigation property in EF
+        // Adding a forgien key
+        public int JobStatusLookUpId { get; set; }
+        
+        // Navigation property in EF
         public JobStatusLookUp JobStatusLookUp { get; set; }
     }
 }

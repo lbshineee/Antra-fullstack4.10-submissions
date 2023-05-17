@@ -1,6 +1,7 @@
 ﻿using System;
 using ApplicationCore.Contracts.Repositories;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Models;
 
 namespace Infrastructure.Services
@@ -43,6 +44,22 @@ namespace Infrastructure.Services
                 Description = job.Description
             };
             return jobResponseModel;
+        }
+
+        public async Task<int> AddJob(JobRequestModel model)
+        {
+            // call the repository that will use EF Core to save the data
+            var jobEntity = new Job
+            {
+                Title = model.Title, StartDate = model.StartDate,
+                Description = model.Description,
+                CreatedOn = DateTime.UtcNow,
+                NumberOfPositions = model.NumberOfPositions,
+                JobStatusLookUpId = 1
+            };
+
+            var job = await _jobRepository.AddAsync(jobEntity);
+            return job.Id;
         }
     }
 }

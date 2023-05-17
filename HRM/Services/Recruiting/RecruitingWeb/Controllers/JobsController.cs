@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Models;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -54,11 +55,31 @@ namespace RecruitingWeb.Controllers
 
         // Authenticated and User should have role for creating new Job
         // HR/Manager
-        [HttpPost]
+        
+        // Show the empty page
+        [HttpGet]
         public IActionResult Create()
         {
             // take the information from the View and save to DB
             return View();
+        }
+
+        // Saving the Job Information
+        //  The process of getting the data from the browser and mapping to the model object, is called
+        // Model Binding in asp.net core
+        //  Model binding is not case sensitive
+        [HttpPost]
+        public async Task<IActionResult> Create(JobRequestModel model)
+        {
+            // check if the model is valid, on the server 
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            // save the data in the database
+            // return to the index View
+            await _jobService.AddJob(model);
+            return RedirectToAction("Index");
         }
     }
 }
