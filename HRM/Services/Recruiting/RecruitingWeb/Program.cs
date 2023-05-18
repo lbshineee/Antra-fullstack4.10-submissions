@@ -4,6 +4,7 @@ using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
+using RecruitingWeb.Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,14 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+/*if (app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("Home/DevException");
+}*/
+
+app.UseRecruitingMiddleware();
+
+// Built in Middlewares 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

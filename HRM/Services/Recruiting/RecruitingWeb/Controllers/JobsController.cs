@@ -28,17 +28,34 @@ namespace RecruitingWeb.Controllers
             // we need to get list of Jobs
             //  call the Job Service
             
+            // http://example.com/jobs/index
+            // Hosted his webapp on the server, Azure-windows, azure linux
+            // User 1 -> access example.com/jobs/index
+            // U2, U3, U4...
+            // 10:00 AM 300 users accessing your website, 200 are accessing index methods.
+            //  No thread is available, called Thread Starvation
+            // To prevent Thread Starvation, using await. Improving scalability of our application.
+            
+            // ASP.NET will assign a thread from thread pool(collection of threads) to do this task, running this Index method.
+            // T 1 - 100 threads for example,
+            // T1 ->
+            
             
             // database
-            // I/O bound operation
-            // CPU bound operation
+            // I/O bound operation => go to this URL and fetch me some data/image, over the network, file download
+            //  ,database calls
             
-            // 3 ways we can send data from controller/actionb method to view
+            // CPU bound operation => loan calculation, large PI number, resizing processing 
+            
+            // 3 ways we can send data from controller/action method to view
             //  1. ViewBag
             //  2. ViewData
             
             //  3. *** Strongly Typed Model data ***
-            ViewBag.PageTitle = "Showing JObs";
+            ViewBag.PageTitle = "Showing Jobs";
+            // I/O bound operation, don't know how much time it takes. Because it depends on
+            //  network, location, database disk SSD, hard drive, SQL slow(not optimized) or fast
+            // Waiting 
             var jobs = await _jobService.GetAllJobs();
             return View(jobs);
         }

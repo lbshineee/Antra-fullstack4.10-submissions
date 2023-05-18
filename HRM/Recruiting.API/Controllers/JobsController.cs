@@ -66,10 +66,10 @@ namespace Recruiting.API.Controllers
                 return BadRequest();
             }
 
-            /*var job = await _jobService.AddJob(model);
+            var job = await _jobService.AddJob(model);
             return CreatedAtAction
-                ("GetJobDetails", new { controller = "Jobs", id = job }, "Job Created")*/
-            return null;
+                ("GetJobDetails", new { controller = "Jobs", id = job }, "Job Created");
+
         }
     
     }
