@@ -1,0 +1,12 @@
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/bin/Debug/net7.0/Infrastructure.deps.json
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/bin/Debug/net7.0/Infrastructure.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/bin/Debug/net7.0/Infrastructure.pdb
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfo.cs
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/refint/Infrastructure.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/Infrastructure.pdb
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Interviews/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
