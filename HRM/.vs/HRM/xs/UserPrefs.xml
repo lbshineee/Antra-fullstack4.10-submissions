@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{D287937B-491D-49F4-8060-1DB67F1EF6C3}|https">
-  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" relfile="Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" line="20" column="1" />
       <Breakpoint file="/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Infrastructure/Services/JobsMongoDbService.cs" relfile="Services/Recruiting/Infrastructure/Services/JobsMongoDbService.cs" line="11" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Recruiting.RecruitingWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Services/Recruiting/RecruitingWeb/Program.cs">
     <Files>
-      <File FileName="Services/Recruiting/RecruitingWeb/Program.cs" Line="8" Column="29" />
+      <File FileName="Services/Recruiting/RecruitingWeb/Program.cs" Line="8" Column="1" />
       <File FileName="Services/Recruiting/Infrastructure/Repositories/CandidateRepository.cs" Line="12" Column="2" />
       <File FileName="Services/Recruiting/ApplicationCore/Contracts/Services/IJobService.cs" Line="9" Column="25" />
       <File FileName="Services/Recruiting/ApplicationCore/Models/JobResponseModel.cs" Line="6" Column="22" />
       <File FileName="Services/Recruiting/Infrastructure/Services/JobService.cs" Line="9" Column="31" />
       <File FileName="Services/Recruiting/RecruitingWeb/Controllers/JobsController.cs" Line="19" Column="10" />
-      <File FileName="Services/Recruiting/Infrastructure/Services/JobsMongoDbService.cs" Line="18" Column="1" />
       <File FileName="Services/Recruiting/ApplicationCore/Entities/Job.cs" Line="18" Column="9" />
       <File FileName="Services/Recruiting/Infrastructure/Data/RecruitingDbContext.cs" Line="11" Column="1" />
       <File FileName="Services/Recruiting/RecruitingWeb/appsettings.json" Line="4" Column="29" />
@@ -25,7 +23,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HRM">
+          <Node name="HRM" expanded="True">
             <Node name="Recruiting" expanded="True">
               <Node name="ApplicationCore" expanded="True" />
               <Node name="Infrastructure" expanded="True">
@@ -33,19 +31,14 @@
                 <Node name="Data" expanded="True" />
                 <Node name="Services" expanded="True" />
               </Node>
-              <Node name="RecruitingWeb">
-                <Node name="Dependencies" expanded="True">
-                  <Node name="ProjectDependencies" expanded="True" />
-                </Node>
+              <Node name="RecruitingWeb" expanded="True">
                 <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>
