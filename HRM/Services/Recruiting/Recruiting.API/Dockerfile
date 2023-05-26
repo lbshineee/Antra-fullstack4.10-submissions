@@ -19,4 +19,5 @@ RUN dotnet publish "Recruiting.API.csproj" -c Release -o /app/publish -r linux-x
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV MSSQLConnectionString='Server=tcp:april2023hrm.database.windows.net,1433;Initial Catalog=Recruiting;Persist Security Info=False;User ID=HRM;Password=j123456!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
 ENTRYPOINT ["dotnet", "Recruiting.API.dll"]

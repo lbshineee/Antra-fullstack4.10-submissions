@@ -274,3 +274,7 @@
 /Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/obj/Debug/net7.0/Recruiting.API.pdb
 /Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/obj/Debug/net7.0/Recruiting.API.genruntimeconfig.cache
 /Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/obj/Debug/net7.0/ref/Recruiting.API.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/lbshine/Documents/GitHub/Antra-fullstack4.10-submissions/HRM/Services/Recruiting/Recruiting.API/bin/Debug/net7.0/System.CodeDom.dll

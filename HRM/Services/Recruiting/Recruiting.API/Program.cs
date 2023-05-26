@@ -13,15 +13,18 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 builder.Services.AddScoped<IJobService, JobService>();
-
 builder.Services.AddScoped<IJobRepository, JobRepository>();
 
-// Inject our ConnectionString into DbContext
+var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
+
+//* Inject our ConnectionString into DbContext
+//builder.Services.AddDbContext<RecruitingDbContext>(
+//    options => options.UseSqlServer( builder.Configuration.GetConnectionString("RecruitingDbConnection"))
+//);
+
 builder.Services.AddDbContext<RecruitingDbContext>(
-    options => options.UseSqlServer( builder.Configuration.GetConnectionString("RecruitingDbConnection"))
-);
+    options => options.UseSqlServer(dockerConnectionString));  
 
 var app = builder.Build();
 
