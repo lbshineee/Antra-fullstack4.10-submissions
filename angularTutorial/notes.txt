@@ -1,0 +1,13 @@
+Creting a new angular project   ->  ng new <project_name>
+
+Similarities between C# and Angular
+
+Controller  ->  components
+Views       ->  Templates
+Attributes  ->  Decorators
+Services    ->  Services
+DI          ->  DI
+Routing     ->  Routing
+Filters     ->  Guards
+Middleware  ->  Interceptors
+C#          ->  TypeScript (Same Inventor)
