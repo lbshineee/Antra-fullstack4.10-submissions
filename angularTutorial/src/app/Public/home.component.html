@@ -1,4 +1,4 @@
-<p> Welcome Back, Master! </p>
+<p> Welcome back, Master:) </p>
 
 <!-- two way binding example -->
 <!-- <form>
@@ -6,3 +6,32 @@
 </form>
 
 <p>{{exampleVariable}}</p> -->
+
+<div class="rounded">
+    <div class="contrainer-fluid">
+        <div class="row">
+            <div class="col-6 col-lg-3 col-sm-4 col-xl-1" style="background-color:aqua">
+                <div>
+                Title:
+                <hr><br>
+                Description:
+                <hr><br>
+                StartDate:
+                <hr><br>
+                NumberOfPositions:
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 col-sm-4 col-xl-2" *ngFor="let job of availableJobs">
+                <div class="card mb-4">
+                    {{job.title}}
+                    <hr><br>
+                    {{job.description}}
+                    <hr><br>
+                    {{job.startDate}}
+                    <hr><br>
+                    {{job.numberOfPositions}}
+                </div>
+            </div>
+        </div>
+    </div>     
+</div>

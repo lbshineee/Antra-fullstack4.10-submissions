@@ -12,6 +12,11 @@ Filters     ->  Guards
 Middleware  ->  Interceptors
 C#          ->  TypeScript (Same Inventor)
 
+Services: Angular services are objects that get instantiated just once duing the lifetime of an app.
+    The use of the term Service here is as a broad category including any value, function, or 
+    feature that an app needs. A service is typically a class with a narrow, well-defined purpose.
+    It should do somthing specific and do it well,.
+
 Public: for all the stuff we don't mind other ppl seeing it
 Shared: The different components and models an application will share. Example: data models.
 Core: Header and Footer, Services, Routes, Guards.
@@ -25,6 +30,39 @@ Decorator -> used to provide metadata to a class, method, accessor, property, or
     One is it instructs angular that this class needs a dependency
     Two is using the providedIn we inform the dependency injection system how to provide the service.
 
+Creating a module example:
+    Create UserModule in User Folder using ng g module user/user --module app --flat
 
-Interview Question: Is lazy always used by default. No, for small applciatons that only has some components, no need to use it.
 
+Interview Question: Is lazy loading always used by default. No, for small applciatons that only has some components, no need to use it.
+
+In Services, we can make a request.
+
+
+---Day June 1st
+
+CORS policy: cross-origin resource sharing
+    define it in web APIs(microservices, program.cs), it will add a header.
+
+
+Template-driven form:
+    pros: not require any change due to ineraction. For very basic requirements and logic. Quick and easy.
+    cons: they don't scale. If have a complicated form, it's very different to read and maintain.
+
+Reactive form: define everything in the component class.
+    give directly access to the form model.
+    pros: more scaleable, useable, reactive. easy to track and debug. Require less time of testing.
+    cons: take a lit bit more setup time. 
+
+
+-- Angular Assignment 1
+
+- Jun 5
+one of the top priorities: JWT token Authentication
+
+Thur + Fri => JWT in backend
+
+reading day 33, homework day 30-32
+FINISH CLIENT COLLECTION
+
+tmr meet at 11 am ET -> 8 am AZ time.

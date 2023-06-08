@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+#page-content{
+    flex: 1 0 auto;
+}
+
+
 html,
 body {
     height: 100%;
