@@ -10,6 +10,7 @@ import { HomeComponent } from './Public/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { JwtAdderInterceptor } from './Core/Interceptors/jwt-adder.interceptor';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -25,7 +26,8 @@ import { JwtAdderInterceptor } from './Core/Interceptors/jwt-adder.interceptor';
     SharedModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtAdderInterceptor, multi: true }
