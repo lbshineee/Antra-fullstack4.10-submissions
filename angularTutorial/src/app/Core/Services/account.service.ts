@@ -25,15 +25,15 @@ export class AccountService {
   Register(registerData:Register):Observable<boolean> {
     // let headers = new HttpHeaders();
     // headers = headers.set('Ocp-Apim-Subscription-Key', 'ea23037be2ba416a9c9c368c243d2f0a');
-    return this.http.post<boolean>("https://hrm2023apigateway.azure-api.net/recruiting/api/Account/Register", registerData, {
-      headers: {'Ocp-Apim-Subscription-Key':'ea23037be2ba416a9c9c368c243d2f0a'}
+    return this.http.post<boolean>("https://mvcapigateway.azure-api.net/authentication/api/Account/Login", registerData, {
+      headers: {'Ocp-Apim-Subscription-Key':'77d8cd885d0841eb97616dafe0b4d0da'}
       // end with c510
     });
   }
 
   Login(loginData:Login):Observable<boolean>{
-    return this.http.post<boolean>("https://hrm2023apigateway.azure-api.net/recruiting/api/Account/Login", loginData, {
-      headers: {'Ocp-Apim-Subscription-Key':'ea23037be2ba416a9c9c368c243d2f0a'}
+    return this.http.post<boolean>("https://mvcapigateway.azure-api.net/authentication/api/Account/Login", loginData, {
+      headers: {'Ocp-Apim-Subscription-Key':'77d8cd885d0841eb97616dafe0b4d0da'}
     }).pipe(map((response: any) => {
       if (response) {
         localStorage.setItem('token', response.token);

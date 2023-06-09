@@ -1,12 +1,22 @@
 import { CanActivateChildFn } from '@angular/router';
 import { AccountService } from '../Services/account.service';
+import { inject } from '@angular/core';
 
-var LoggedIn:boolean = false;
+let LoggedIn:boolean = false;
 // push Route Guards to tomorrow
 //constructor(private accountService:AccountService)
 
 export const loginGuard: CanActivateChildFn = (childRoute, state) => {
   
-  
-  return true;
+  inject(AccountService).isLoggedIn.subscribe(data => {
+    LoggedIn = data;
+  });
+
+  if (LoggedIn){
+    return true;
+  }
+  else {
+    return false;
+  }
+
 };
