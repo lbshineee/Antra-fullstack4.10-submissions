@@ -2,6 +2,8 @@ Creting a new angular project   ->  ng new <project_name>
 
 Similarities between C# and Angular
 
+C#          ->  Angular
+
 Controller  ->  components
 Views       ->  Templates
 Attributes  ->  Decorators
@@ -66,3 +68,7 @@ reading day 33, homework day 30-32
 FINISH CLIENT COLLECTION
 
 tmr meet at 11 am ET -> 8 am AZ time.
+
+- Jun 9
+
+Finish resume by Monday

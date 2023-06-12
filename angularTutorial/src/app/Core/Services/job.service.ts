@@ -19,7 +19,7 @@ export class JobService {
     //   headers: {'Ocp-Apim-Subscription-Key':'ea23037be2ba416a9c9c368c243d2f0a'}
     // });
 
-    return this.http.get<Job[]>("https://mvcapigateway.azure-api.net/recruiting/api/Jobs", {
+    return this.http.get<Job[]>("https://hrm2023apigateway.azure-api.net/recruiting/api/Jobs", {
       headers: {'Ocp-Apim-Subscription-Key':environment.subscriptionKey_new}
     });
   }

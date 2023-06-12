@@ -1,6 +1,5 @@
-<p>login works!</p>
-
-<div class="container">
+<div style="margin-left: 20px;">getting over it </div>
+<div class="container" style="background-color:rgb(3, 154, 242);">
     <div class="row mt-4">
         <div class="col-sm-3">
         </div>
@@ -17,12 +16,12 @@
                     <form #loginForm="ngForm" (submit)="Login(loginForm)">
                         <div class="form-group">
                             <label for="email">Email: </label>
-                            <input type="email" [(ngModel)]="loginData.email" name="email"
+                            <input type="email" [(ngModel)]="loginData.email" name="email" id="email"
                                 class="form-control-inline m-3" required />
                         </div>
                         <div class="form-group">
-                            <label for="password">Email: </label>
-                            <input type="password" [(ngModel)]="loginData.password" name="password"
+                            <label for="password">Password: </label>
+                            <input type="password" [(ngModel)]="loginData.password" name="password" id="password"
                                 class="form-control-inline m-3" required />
                         </div>
                         <div class="form-group">
