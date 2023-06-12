@@ -22,13 +22,16 @@ export class HomeComponent implements OnInit {
     // setTimeout(() => {
     //   this.exampleVariable = "The new data"
     // }, 2000);
-
-    this.jobService.getAllJobs().subscribe(data => 
-      this.availableJobs = data
+    console.log("\nHere we go:");
+    this.jobService.getAllJobs().subscribe(data => {
+      this.availableJobs = data;
+      
+        console.log("\nHere we go Jobs:");
+        console.log(this.availableJobs);
+       
+      }
     );
-    console.log("\nHere we go Jobs:");
-    console.log(this.availableJobs);
-    console.log("why jobs aren't printing?");
+
   }
 
 }
